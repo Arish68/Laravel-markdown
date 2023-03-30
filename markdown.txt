@@ -1,0 +1,1 @@
+ return (new MailMessage)->subject($this->info['subject'])->markdown('admin.mail.index', ['user' => $this->info]);
